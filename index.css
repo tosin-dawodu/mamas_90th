@@ -15,14 +15,13 @@ main {
   width: auto;
   margin: auto;
 }
-.image {
+/* .image {
   margin: auto;
-  /* border: 2px solid hotpink; */
 }
 
 img {
   width: auto;
-}
+} */
 
 .timer {
   /* border: 2px red solid; */
@@ -57,7 +56,10 @@ img {
   border-radius: 20px;
   font-weight: 700;
 }
-
+.colon {
+  font-weight: 900;
+  font-size: 30px;
+}
 .heading {
   /* border: 2px solid slateblue; */
   text-align: center;
@@ -66,7 +68,7 @@ img {
 .floats {
   position: absolute;
   bottom: -50vh;
-  animation: floatup 5s infinite;
+  animation: floatup 7s infinite;
   width: 40vw;
 }
 @keyframes floatup {
@@ -80,7 +82,7 @@ img {
 
 @media (max-width: 541px) {
   .timer {
-    border: 2px blue solid;
+    /* border: 2px blue solid; */
     display: flex;
     justify-content: center;
     z-index: 2;
@@ -88,6 +90,15 @@ img {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%); */
+  }
+  .none-image {
+    /* border: 2px red solid; */
+    justify-content: center;
+    z-index: 2;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   .countdown-timer {
     /* border: 3px solid green; */
@@ -105,7 +116,7 @@ img {
     border-radius: 15px;
   }
   .heading {
-    border: 2px solid slateblue;
+    /* border: 2px solid slateblue; */
     width: 300px;
     text-align: center;
     /* position: absolute;
